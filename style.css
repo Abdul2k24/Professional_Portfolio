@@ -5,12 +5,12 @@
 }
 
 body {
-    background-color: rgb(166, 196, 196);
+    background-color: whitesmoke;
 }
 .header {
     padding: 20px;
     font-family: "Times New Roman";
-    background-color: #656d718e;
+    background-color: grey;
     color: #ffffff;
 }
 
@@ -53,4 +53,34 @@ p {
     background-image: url(images/Hero\ Background.jpeg);
     background-size: cover;
     background-position: center;
+}
+.hero-text {
+    text-align: center;
+    position: absolute;
+    top: 25%;
+    right: 1%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+
+main {
+background-color: grey;
+}
+
+.subheading {
+    float: left;
+    width: 33.33%;
+    padding: 15px;
+    font-size: 230%;
+    border-right: solid 5px black;
+    text-align: right;
+}
+.paragraph {
+    display: flex ;
+    font-family: sans-serif;
+    text-align: left;
+    position: relative;
+    width: 800px;
+    line-height:  1.5em;
+    margin: 50px;
 }
