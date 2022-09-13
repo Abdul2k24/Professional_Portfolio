@@ -4,20 +4,19 @@
     margin: 0; 
 }
 
-body {
-    background-color: whitesmoke;
-}
+
 .header {
     padding: 20px;
     font-family: "Times New Roman";
-    background-color: grey;
-    color: #ffffff;
+    background-color: gray;
+    color: #070101;
 }
 
 .header h1 {
     display: inline-block;
     font-size: 48px;
 }
+
 
 
 
@@ -39,7 +38,7 @@ body {
 }
 
 a {
-    color: #ffffff;
+    color: #060101;
     text-decoration: none;
 }
 
@@ -64,7 +63,7 @@ p {
 }
 
 main {
-background-color: grey;
+background-color: white;
 }
 
 .subheading {
@@ -72,15 +71,63 @@ background-color: grey;
     width: 33.33%;
     padding: 15px;
     font-size: 230%;
-    border-right: solid 5px black;
+    border-right: solid px black;
     text-align: right;
 }
 .paragraph {
-    display: flex ;
+    display: flex;
     font-family: sans-serif;
     text-align: left;
     position: relative;
     width: 800px;
     line-height:  1.5em;
     margin: 50px;
+}
+
+
+
+.flex-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+#project1 {
+    background-image: url(images/html\ logo.png);
+    background-size: 420px;
+    width: 420px;
+    height: 300px;
+    border: 5px solid black
+}
+#project2 {
+    background-image: url(images/css\ logo.png);
+    background-size: 420px;
+    width: 420px;
+    height: 200px;
+    border: 5px solid black
+}
+
+#project3 {
+    background-image: url(images/JavaScript-Logo.png);
+    background-size: 420px;
+    width: 420px;
+    height: 200px;
+    border: 5px solid black
+}
+
+footer{
+    background: gray;
+    color: black; 
+    display: flex;
+    place-items: center; 
+    font-size: 1rem;
+}
+
+.contact {
+    padding-bottom: 15px;
+    margin-right: 20px;
+    float: right;
+    font-family: 'Times New Roman';
+    font-size: 20px
 }
